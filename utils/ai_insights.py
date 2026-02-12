@@ -25,7 +25,7 @@ class AIInsightGenerator:
             import google.generativeai as genai
             
             # Load API key from environment variable (.env file)
-            api_key = os.getenv('GEMINI_API_KEY')
+            api_key = st.secrets["GEMINI_API_KEY"]
             
             if not api_key:
                 st.warning("⚠️ GEMINI_API_KEY not found in .env file. AI insights will be disabled.")
