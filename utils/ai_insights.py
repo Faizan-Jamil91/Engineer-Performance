@@ -8,9 +8,6 @@ import os
 from typing import Dict, List, Optional, Any
 from config.settings import APP_TITLE
 
-# Load environment variables
-load_dotenv()
-
 class AIInsightGenerator:
     """Handles Gemini AI-powered insights generation"""
     
