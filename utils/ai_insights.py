@@ -5,7 +5,6 @@ import streamlit as st
 import pandas as pd
 import json
 import os
-from dotenv import load_dotenv
 from typing import Dict, List, Optional, Any
 from config.settings import APP_TITLE
 
